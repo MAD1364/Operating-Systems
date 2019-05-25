@@ -5,12 +5,15 @@ Simulator of a cpu scheduling system that can assume the scheduling algorithm of
 
 1.) First Come First Serve
   - Non-Preemptive scheduler in which processes are serviced based on the order in which they arrive
+  
 2.) Shortest Remaining Time First
   - Preemptive Scheduler that chooses to assign to the cpu that process with the least amount of time required for execution remaining
+  
 3.) Highest Response Ratio Next
   - Non-Preemptive Scheduler that determines processes to execute based on the amount of time they have been waiting and the amount of
     time required for execution remaining: (Tw + Ts)/ Ts => prevents starvation so that processes with high service times (low priority
     as in the case of SRTF) are not constantly neglected.
+    
 4.) Round Robin
   - Non-Preemptive Scheduler that services processes based on a fixed amount of time (quantum) in the FCFS fashion.
 
