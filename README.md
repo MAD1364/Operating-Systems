@@ -2,6 +2,7 @@
 Operating Systems projects
 
 Simulator of a cpu scheduling system that can assume the scheduling algorithm of one of four distinct types:
+
 1.) First Come First Serve
   - Non-Preemptive scheduler in which processes are serviced based on the order in which they arrive
 2.) Shortest Remaining Time First
