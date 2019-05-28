@@ -13,5 +13,6 @@ Pthreads Practice
     not running as in the case of busy waiting (busy waiting wastes cpu cycles).
     
 To Compile: gcc -pthread cmf.c -o executable name
+
 To Run: ./executable_name seed
   - Seed is a command line argument used to implement pseudorandom arrangements of cards for the deck used in the game. 
